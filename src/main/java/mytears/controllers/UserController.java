@@ -10,6 +10,6 @@ public class UserController {
 
     @GetMapping
     public String someMethod() {
-        return "/users/index";
+        return "index";
     }
 }
