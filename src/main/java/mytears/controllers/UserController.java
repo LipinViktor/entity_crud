@@ -2,12 +2,14 @@ package mytears.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+@RequestMapping
 public class UserController {
 
     @GetMapping("/users")
     public String someMethod() {
-        return "users/index";
+        return "123";
     }
 }
